@@ -12,6 +12,3 @@ p{
 h1{
     @apply md:font-extrabold font-bold md:text-4xl text-lg ml-6
 }
-/* html{
-    @apply bg-[#bbbbbb]
-} */
