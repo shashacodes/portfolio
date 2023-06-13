@@ -2,26 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+section {
+    @apply border rounded-xl  transition-shadow duration-300  md:w-[250px] w-[150px] md:h-[150px] h-[100px] text-center ml-[9%] mt-6 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwTF5LFK2YIJUp1DNtawXqt50aicmRawqJkw&usqp=CAU')] hover:bg-gradient-to-l from-slate-400 border-transparent animate-pulse 
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+p{
+    @apply  mt-6 md:mb-3 mb-1 md:pb-5 pb-2
 }
+h1{
+    @apply md:font-extrabold font-bold md:text-4xl text-lg ml-6
+}
+/* html{
+    @apply bg-[#bbbbbb]
+} */
