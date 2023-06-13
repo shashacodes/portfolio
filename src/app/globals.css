@@ -10,5 +10,5 @@ p{
     @apply  mt-6 md:mb-3 mb-1 md:pb-5 pb-2
 }
 h1{
-    @apply md:font-extrabold font-bold md:text-4xl text-lg ml-6
+    @apply md:font-extrabold md:text-4xl text-lg ml-6
 }
