@@ -68,7 +68,7 @@ export default function home() {
               CONTACT
             </button>{" "}
           </Link>
-          <Link href="/front-page">
+          <Link href="/">
             {" "}
             <p className="animate-bounce font-bold mx-auto border rounded-xl md:text-2xl text-base hover:text-black pt-2 text-center hover:bg-zinc-50 hover:scale-125 mt-4 md:w-[300px] w-[150px] h-[60px]">
               Back to FrontPage{" "}

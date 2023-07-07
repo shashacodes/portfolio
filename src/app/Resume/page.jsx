@@ -7,7 +7,7 @@ export default function page() {
   return (
     <div>
       <ul className="flex  text-xl md:justify-end justify-normal space-x-2 md:space-x-20 md:mr-[30%] ml-[10%] mt-3">
-        <Link href="/front-page">
+        <Link href="/">
           <li className="hover:underline">HOME</li>
         </Link>
         <Link href="/About">

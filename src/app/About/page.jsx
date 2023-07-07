@@ -41,10 +41,10 @@ export default function about() {
         </p>
       </div>
       <span className="mx-auto">
-        <Link href="/front-page">
-          <p className="animate-pulse md:p-10 p-0 md:pt-2 pt-0 justify-center text-center font-bold md:font-extrabold mx-auto border rounded-xl md:text-2xl text-base hover:text-black hover:bg-zinc-50 hover:scale-125 mt-4 md:w-[300px] w-[130px] md:h-[60px] h-[50px]">
+        <Link href="/">
+          <button className="animate-pulse md:p-10 p-0 md:pt-2 pt-0 justify-center text-center font-bold md:font-extrabold mx-auto border rounded-xl md:text-2xl text-base hover:text-black hover:bg-gradient-to-l from-slate-400 hover:scale-125 mt-4 md:w-[300px] w-[130px] md:h-[60px] h-[50px]">
             Back to FrontPage
-          </p>{" "}
+          </button>{" "}
         </Link>
       </span>
     </div>

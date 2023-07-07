@@ -5,14 +5,16 @@ import React from "react";
 export default function page() {
   return (
     <div className="min-h-screen text-xl md:font-bold text-white font-normal justify-center bg-slate-600 h-screen gap-5">
-      <nav>
-        <img
-          src="./favicon.ico"
+      <nav className="flex mt-2">
+        <Image
+          src="/favicon.ico"
           alt="favicon"
-          className="border rounded-full md:mt-3  ml-5 md:h-[70px] h-[40px]"
+          width={100}
+          height={100}
+          className="border rounded-full md:mt-3  ml-5"
         />
-        <ul className="flex md:flex-row  md:justify-end justify-normal space-x-2 md:space-x-20 md:mr-[20%] ml-[10%] mt-3">
-          <Link href="/front-page">
+        <ul className="flex md:text-2xl text-base  md:justify-end justify-normal space-x-3 md:space-x-20 md:mr-[20%] ml-[18%] ">
+          <Link href="/">
             <li className="hover:underline">HOME</li>
           </Link>
           <Link href="/About">
@@ -28,13 +30,13 @@ export default function page() {
       </nav>
       <h1>Projects.</h1>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
-        {/* <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
-          <Link href="https://shashasignup.netlify.app/">
+        <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
+          <Link href="https://newsignupapp.netlify.app/">
             <section>
               <p>A project with next.js</p>
             </section>
           </Link>
-        </div> */}
+        </div>
         <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
           <Link href="https://shashacodes.github.io/pwdgen/">
             <section>
@@ -71,16 +73,16 @@ export default function page() {
           </Link>
         </div>
         <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
-          <Link href="https://shashacodes.github.io/javascript-project/third%20javascript.html">
+          <Link href="https://shashacodes.github.io/javascript-project/array.html">
             <section>
-              <p>Adding list items with prompt function-javascript</p>
+              <p>prompt Adding list items </p>
             </section>
           </Link>
         </div>
         <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
           <Link href="https://shashacodes.github.io/javascript-project/bmi.html">
             <section>
-              <p>Calculate Your Body Mass Index with javascript</p>
+              <p>Calculate Your Body Mass Index with js</p>
             </section>
           </Link>
         </div>
@@ -91,7 +93,7 @@ export default function page() {
             </section>
           </Link>
         </div>
-        <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
+        {/* <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
           <Link href="https://shashacodes.github.io/frontend/tailwindclasswork.html">
             <section>
               <p>
@@ -99,7 +101,7 @@ export default function page() {
               </p>
             </section>
           </Link>
-        </div>
+        </div> */}
         <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
           <Link href="https://shashacodes.github.io/frontend/html/markup.html">
             <section>
