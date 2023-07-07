@@ -31,6 +31,13 @@ export default function page() {
       <h1>Projects.</h1>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
         <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
+          <Link href="https://capstone-theta-eight.vercel.app/">
+            <section>
+              <p>Sharon's Grocery App</p>
+            </section>
+          </Link>
+        </div>
+        <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
           <Link href="https://newsignupapp.netlify.app/">
             <section>
               <p>A project with next.js</p>
