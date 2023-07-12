@@ -38,7 +38,7 @@ export default function page() {
           </Link>
         </div>
         <div className="border w-[300px] bg-black  border-transparent rounded-lg h-[150px] ml-8 mt-5">
-          <Link href="https://newsignupapp.netlify.app/">
+          <Link href="https://signup-delta.vercel.app/">
             <section>
               <p>A project with next.js</p>
             </section>
