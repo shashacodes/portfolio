@@ -13,7 +13,7 @@ export default function page() {
           height={100}
           className="border rounded-full md:mt-3  ml-5"
         />
-        <ul className="flex md:text-2xl text-base  md:justify-end justify-normal space-x-3 md:space-x-20 md:mr-[20%] ml-[18%] ">
+        <ul className="flex md:text-2xl text-sm  md:justify-end justify-normal space-x-3 md:space-x-20 md:mr-[20%] ml-[18%] ">
           <Link href="/">
             <li className="hover:underline">HOME</li>
           </Link>
