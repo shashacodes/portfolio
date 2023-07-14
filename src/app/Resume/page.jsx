@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import cv from "../Contact/Images/cv.jpg";
+import cv from "../Contact/Images/cv1.jpg";
 
 export default function page() {
   return (
