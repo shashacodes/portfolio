@@ -11,7 +11,7 @@ import git from "./Images/git.png";
 export default function page() {
   return (
     <div className="  h-screen md:bg-slate-600 bg-slate-600 md:text-white text-black">
-      <ul className="flex justify-end md:space-x-10 space-x-2 md:p-6 p-2 md:gap-6 gap-2 mb-4 md:text-2xl text-xl font-bold">
+      <ul className="flex justify-between md:space-x-10 space-x-2 md:p-6 p-2 md:gap-6 gap-2 mb-4 md:text-2xl text-xl font-bold">
         <Link href="/">
           <li className="hover:underline">Home</li>
         </Link>
